@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>TLF </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-static/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/dist/css/navbar-top.css" rel="stylesheet">
+    <link href="../assets/dist/css/sticky-footer-navbar.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <style>
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+</style>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Movie Review</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="{{ url_for('home') }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Movie Review</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <header>
+      <div class="container">
+        <h1 class="logo">Movie Review Sentiment Analysis</h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="#">Other Reviews from all over the world</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+    <form action="/predict" class="form-group" method="post">
+      <div class="row">
+          <p>Enter Movie Name:</p>
+          <p><input class="form-control" type="text" name="mov" /></p>
+      </div>
+      <div class="row">
+          <p>Enter Your review:</p>
+          <p><input class="form-control" type="text" name="rev" /></p>
+      </div>
+
+      <p><input class="btn btn-primary" type="submit" value="submit" /></p>
+</div>
+</form>
+
+
+{% block content %}
+{% endblock %}
+  <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">When is a bug not a bug?.</span>
+      </div>
+    </footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
