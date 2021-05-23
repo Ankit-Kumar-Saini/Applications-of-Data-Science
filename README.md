@@ -34,7 +34,7 @@ The `requirements file` list all the libraries/dependencies required to run the 
 6. dog_cat: This is a dummy database file created to demonstrate the use of basic SQL queries.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-Must give credit to Udacity for the data and python 3 notebook.
+Must give credit to Plaksha for the data and python 3 notebook.
 
 
 
