@@ -9,13 +9,12 @@
 4. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
-## List of Dependencies<a name="dependency"></a>
-The `requirements file` list all the libraries/dependencies required to run the notebooks/projects in this repository.
-
 ## Instructions to use the repository<a name="instructions"></a>
 1. Clone this github repository and start using it.
 `git clone https://github.com/Ankit-Kumar-Saini/Applications-of-Data-Science`
 
+## List of Dependencies<a name="dependency"></a>
+The `requirements file` list all the libraries/dependencies required to run the notebooks/projects in this repository.
 
 ## File Descriptions<a name="desc"></a>
 1. `Sentiment Analysis`: This folder contains relevant scripts to deploy a web app for movie review sentiment analysis. The following files/folders are present inside
