@@ -30,9 +30,9 @@ The `requirements file` list all the libraries/dependencies required to run the 
 2. `Basics of SQL.ipynb`: This jupyter notebook demonstrates the use of basic SQL commands on a toy dataset.
 
 
-3. `Transfer Learning.ipynb`: This jupyter notebook demonstrates the power of **Transfer Learning** in image classification tasks. Images of Cat, Kanye West and Pickachu were downloaded from the internet. A pre-trained EfficientNetB0 model was used as a feature extractor to classify the images into three categories. The model achieved an accuracy of `99.82% on validation data` even with a small training dataset.
+3. `Transfer Learning.ipynb`: This jupyter notebook demonstrates the power of **Transfer Learning** in image classification tasks. Images of Cat, Kanye West and Pickachu were downloaded from the internet. A pre-trained **EfficientNetB0 model** was used as a feature extractor to classify the images into three categories. The model achieved an accuracy of `99.82% on validation data` even with a small training dataset.
 
-4. `Kaggle Cats vs Dogs Classification.ipynb`: This jupyter notebook dives into the interpretation of convolutional neural networks. A pre-trained InceptionV3 model was used as a feature extractor to classify images of cats and dogs. 'Saliency Maps` of the last convolutional layer were generated to visualize what features are important to classify an image into a cat or dog.
+4. `Kaggle Cats vs Dogs Classification.ipynb`: This jupyter notebook dives into the interpretation of convolutional neural networks. A pre-trained **InceptionV3 model** was used as a feature extractor to classify images of cats and dogs. **Saliency Maps** of the last convolutional layer were generated to visualize what features are important to classify an image into a cat or dog.
 
 5. `WebScrapping1.ipynb`: This jupyter notebook demonstrates the use of `Beautiful Soup` library for web scrapping with examples.
  
